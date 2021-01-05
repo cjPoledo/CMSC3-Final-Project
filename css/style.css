@@ -1,0 +1,164 @@
+body {
+	font-family: roboto, sans-serif;
+	margin: 0;
+	min-width: 1200px;
+}
+
+body a {
+	text-decoration: none;
+	color: black;
+}
+
+.page-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.navigation {
+	display: flex;
+	height: 65px;
+	overflow: hidden;
+	padding: 0 100px 0 20px;
+	background: linear-gradient(to right, rgb(255,255,255), rgb(235,242,92));
+}
+
+.nav-logo {
+	flex-basis: 20%;
+	justify-content: center;
+}
+
+.nav-logo h1 {
+	font-family: "Abril Fatface", cursive;
+}
+
+.nav-logo * {
+	line-height: 0px;
+}
+
+.nav-links {
+	display: flex;
+	flex-basis: 80%;
+	font-size: 25px;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-links a {
+	padding: 10px;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.home {
+	background: linear-gradient(to right, rgb(255,255,255), rgb(235,242,92));
+	height: 703px;
+	display: flex;
+}
+
+.home-img {
+	flex-basis: 33.3333%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-text {
+	flex-basis: 66.6667%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 0 100px 0 0;
+}
+
+.home-text > h3 {
+	font-size: 50px;
+}
+
+.home-text > p {
+	font-size: 30px;
+}
+
+.home-text-links {
+	font-size: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-text-links a {
+	margin: 0 50px;
+	padding: 10px;
+	border: 3px solid #D9E021;
+	background: #F9FF74;
+}
+
+.home-text-links a:hover {
+	background: #F9FFF4;
+	color: #1F1F1F;
+}
+
+.featured {
+	display: flex;
+}
+
+.featured > div{
+	flex-basis: 50%;
+	padding: 30px;
+}
+
+.featured h3 {
+	font-size: 40px;
+	text-align: center;
+}
+
+.featured-news p {
+	font-size: 30px;
+}
+
+.featured-news a {
+	color: blue;
+}
+
+.featured-news a:hover {
+	text-decoration: underline;
+}
+
+.gallery {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 5px;
+}
+
+.gallery img {
+	width: 215px;
+	height: 215px;
+}
+
+.gallery img:hover {
+	transform: scale(1.5);
+}
+
+.footer {
+	display: flex;
+	padding: 30px;
+	background: #999999;
+	font-size: 20px;
+}
+
+.footer h3 {
+	font-size: 33px;
+}
+
+.footer-office {
+	flex-basis: 70%;
+}
+
+.footer-office > div {
+	display: flex;
+}
+
+
+.footer-office > div address{
+	padding: 10px;
+}
