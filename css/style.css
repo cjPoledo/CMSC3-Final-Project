@@ -221,6 +221,17 @@ body a {
 .our-people {
 	border-bottom: 5px solid green;
 }
+/* Market */
+.market {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background: linear-gradient(to right, rgb(255,255,255), rgb(235,242,92));
+}
+
+.market > div {
+	margin: 2em;
+}
 /* Responsive */
 @media only screen and (max-width: 1120px) {
 	.navigation {
@@ -260,5 +271,9 @@ body a {
 	.gallery {
 		grid-template-columns: auto;
 		justify-content: center;
+	}
+
+	.market {
+		flex-direction: column;
 	}
 }
