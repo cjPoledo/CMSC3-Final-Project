@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ADBANZ | Premium Quality Bananas from the Philippines</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="page-container">
+		<!--Navigation Bar-->
+		<div class="navigation">
+			<div class="nav-logo">
+				<a href="index.html">
+				<h1>Adbanz</h1>
+				<h3>Premium Quality Bananas</h3>
+				</a>	
+			</div>
+			<div class="nav-links">
+				<a href="index.html">HOME</a>
+				<a href="market.html" class="active">MARKET</a>
+				<a href="news.html">NEWS</a>
+				<a href="about-us.html">ABOUT US</a>
+				<a href="contact-us.html">CONTACT US</a>
+			</div>
+		</div>
+		<!--Market-->
+		<div class="market">
+			<div>
+				<h2>CHARACTERISTICS</h2>
+				<fieldset>
+					<legend>Production Characteristics</legend>
+					<p>Production Mode</p>
+					<input list="production modes">
+					<datalist id="production modes">
+						<option value="Conventional Production">
+						<option value="Organical Production">
+					</datalist>
+					<p>Packaging for Shipment</p>
+					<input list="packaging">
+					<datalist id="packaging">
+						<option value="by hands and plastic liners ">
+					    <option value="by hands and cardboards ">
+						<option value="by fingers and plastic liners ">
+					    <option value="by fingers and cardboards ">
+					 </datalist>
+				    <label for="quantity">Quantity:</label>
+					<input type="number" id="quantity" name="quantity" min="1" max="1000">
+					<p>Place of Destination</p>
+					<input type="text" id="destination" name="destination">
+					<input type="checkbox" name="is-overseas">
+					<label>overseas</label>
+					<p>Place of origin </p>
+					<input list="origin">
+					<datalist id="origin">
+						<option value="Sarrangani, Mindanao">
+						<option value="Comval, Mindanao">
+					    <option value="Panabo, Mindanao">
+					    <option value="Tagum, Mindanao">
+					</datalist>
+					<p>Final Delivery Date </p>
+					<input type="date" id="date" name="date"><br><br> to <input type="date" id="date" name="date"><br><br>
+ 					<input type = "button" value="Search">
+				</fieldset>
+			</div>
+			<div>
+				<h2>ORDER BOARD</h2>
+				<table>
+					<tr>
+   						<th>COMMODITIES</th>
+   						<th>Bid by Buyers </th> 
+    					<th>Offers by Sellers</th>
+  					</tr>
+  					<tr>
+      					<td> <input type = "button" value="Add New Offer"></td>
+    					<td>(currency per weight)</td>
+    					<td>(currency per weight)</td>
+  					</tr>
+  					<tr>
+    				<td><input type = "button" value="Show All Deals"></td>
+    				<td>BIDS</td>
+    				<td>OFFERS</td>
+  					</tr>
+				</table>
+			</div>
+		</div>
+		<!--Footer-->
+		<div class="footer">
+			<div class="footer-office">
+				<h3>Our Office:</h3>
+				<div>
+					<address>(+63) 909 090 0909<br>
+					adbanzbananas@adbanz.com<br>
+					GK Building, Purok 6, Dacudao, Calinan, Davao City, Davao del Sur, Philippines</address>
+					<address>Monday to Friday<br>10:00 AM to 5:00 PM</address>
+				</div>
+			</div>
+			<div>
+				<h3>Subscribe to our Newsletter:</h3>
+				<form>
+					<label>Input your Email Address:<br></label>
+					<input type="email" name="email">
+					<button>Submit</button>
+				</form>
+			</div>
+			<div class="smedia">
+				<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+				<a href="https://www.twitter.com/" target="_blank" class="fa fa-twitter"></a>
+				<a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
