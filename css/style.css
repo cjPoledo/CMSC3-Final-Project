@@ -195,6 +195,32 @@ body a {
 .gallery img:hover {
 	transform: scale(1.5);
 }
+/* About Us */
+.about-us-container {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.3em;
+	background: linear-gradient(to right, rgb(255,255,255), rgb(235,242,92));
+}
+
+.about-us-container > div {
+	flex-basis: 100%;
+	padding: 5em;
+	text-align: center;
+}
+
+.about-us-container h2 {
+	color: darkgreen;
+}
+
+.mission-vision {
+	border-top: 5px solid gray;
+	border-bottom: 5px solid yellowgreen;
+}
+
+.our-people {
+	border-bottom: 5px solid green;
+}
 /* Responsive */
 @media only screen and (max-width: 1120px) {
 	.navigation {
