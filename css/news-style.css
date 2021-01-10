@@ -154,52 +154,6 @@ img{
 .category-sections{
   background: var(--sections-color);
 }
-
-.section-header .section-title{
-    padding-bottom: 12px;
-    padding-top: 12px;
-    margin-bottom: 2.4rem;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    letter-spacing: 0.1rem;
-    font-weight: 900;
-    font-size: 1.250rem;
-    position: relative;
-    padding-left: 64px;
-    background-color: #f0f0f0;
-}
-.section-header .section-title:before{
-    content: "\f054";
-    position: absolute;
-    display: inline-block;
-    font: normal normal normal 18px/1 FontAwesome;    left: 0;
-    width: 46px;
-    line-height: 46px;
-    text-align: center;
-    background-color: rgba(255,0,255,1);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    top: 0px;
-    color: #ffffff;
-}
-
-.section-header .section-title:after{
-    content: '';
-    position: absolute;
-    display: block;
-    bottom: 20px;
-    left: 0px;
-    bottom: 0;
-    height: 4px;
-    right: 0px;
-    background: -moz-linear-gradient(left, rgba(255,0,255,1)) 0%,rgba(240, 255, 0, 1) 100%);
-    background: -webkit-linear-gradient(left, rgba(255,0,255,1) 0%,rgba(240, 255, 0, 1) 100%);
-    background: linear-gradient(to right, rgba(255,0,255,1) 0%,rgba(240, 255, 0, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34ace0', endColorstr='#9945e1ef',GradientType=1 );
-}
-
 .card{
   padding: 2rem;
 }
